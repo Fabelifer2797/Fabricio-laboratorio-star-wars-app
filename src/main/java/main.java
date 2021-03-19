@@ -10,7 +10,7 @@ public class main {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-
+                //otro comment izi
                 ArrayList<Character> characters = new ArrayList<>();
                 try {
                     characters = new StarWarsAPI().getAllStarWarsCharacterAsJson();
