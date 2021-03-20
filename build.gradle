@@ -1,5 +1,14 @@
 plugins {
     id 'java-library'
+     id "org.sonarqube" version "3.1.1"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "Fabelifer2797_Fabricio-laboratorio-star-wars-app"
+    property "sonar.organization", "fabelifer2797"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 
 group 'org.example'
