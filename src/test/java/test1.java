@@ -3,7 +3,7 @@ import org.testng.Assert;
 
 
 public class test1 {
-    //update
+    //update 1.0
     @Test
     public void case1() {
         String result = "Test";
